@@ -54,10 +54,11 @@ form {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 95vw;
   margin: 0 auto;
 }
 
+/* Images */
 .search-result{
   margin-bottom: 60px;
   width: 30%;
@@ -67,6 +68,7 @@ form {
   overflow: hidden;
 } 
 
+/* Image interactivity */
 .search-result img{
   width: 100%;
   height: 200px;
@@ -87,6 +89,10 @@ form {
   text-transform: capitalize;
 }
 
+img {
+  height: 100%!important;
+}
+
 #show-more-button {
   background-color: #008cba;
   font-size: 18px;
@@ -99,4 +105,11 @@ form {
   border-radius: 5px;
   cursor: pointer;
   display: none;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  background-color: grey;
+  border-top: 1px solid black;
 }
